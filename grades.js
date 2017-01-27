@@ -30,7 +30,7 @@ for (var num = 0; num < scores.length; ++num) {
 	else if (i >=81 && i <= 90) {
 		bCount += 1
 	}
-	else if (i >=91 && i <= 100) {
+	else if (i >=91 && i < 100) {
 		aCount += 1
 		// if (highestGrade == undefined) {
 		// highestGrade = i;
